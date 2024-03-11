@@ -31,6 +31,7 @@ class CreditCardRecommenderTest {
     @BeforeEach
     void setup() {
         //TODO: Setup paymentRecommender
+        paymentRecommender = new PaymentRecommenderImpl();
     }
 
     @Test

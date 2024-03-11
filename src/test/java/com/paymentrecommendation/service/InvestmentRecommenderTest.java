@@ -30,6 +30,7 @@ class InvestmentRecommenderTest {
     @BeforeEach
     void setup() {
         //TODO: Setup paymentRecommender
+        paymentRecommender = new PaymentRecommenderImpl();
     }
 
     @Test
